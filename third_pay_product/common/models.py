@@ -1,4 +1,4 @@
-# coding: utf-8
+# -*- coding: utf-8 -*-
 from sqlalchemy import Column, DateTime, Float, Integer, Numeric, String, Text
 from flask_sqlalchemy import SQLAlchemy
 

@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from flask import request, jsonify, Blueprint
 from common.libs.tools import get_current_time, get_md5, return_data, get_code
 import uuid, json
