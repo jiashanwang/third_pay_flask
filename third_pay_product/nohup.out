@@ -1,0 +1,31 @@
+ * Serving Flask app "application" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+Traceback (most recent call last):
+  File "manager_pay.py", line 6, in <module>
+    app.run(debug=False)
+  File "/data/flask/third_pay_flask/third_pay_venv/lib/python3.7/site-packages/flask/app.py", line 990, in run
+    run_simple(host, port, self, **options)
+  File "/data/flask/third_pay_flask/third_pay_venv/lib/python3.7/site-packages/werkzeug/serving.py", line 1052, in run_simple
+    inner()
+  File "/data/flask/third_pay_flask/third_pay_venv/lib/python3.7/site-packages/werkzeug/serving.py", line 1005, in inner
+    fd=fd,
+  File "/data/flask/third_pay_flask/third_pay_venv/lib/python3.7/site-packages/werkzeug/serving.py", line 848, in make_server
+    host, port, app, request_handler, passthrough_errors, ssl_context, fd=fd
+  File "/data/flask/third_pay_flask/third_pay_venv/lib/python3.7/site-packages/werkzeug/serving.py", line 740, in __init__
+    HTTPServer.__init__(self, server_address, handler)
+  File "/usr/local/python3/lib/python3.7/socketserver.py", line 452, in __init__
+    self.server_bind()
+  File "/usr/local/python3/lib/python3.7/http/server.py", line 137, in server_bind
+    socketserver.TCPServer.server_bind(self)
+  File "/usr/local/python3/lib/python3.7/socketserver.py", line 466, in server_bind
+    self.socket.bind(self.server_address)
+OSError: [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "manager_pay.py", line 1, in <module>
+    from application import app
+  File "/data/flask/third_pay_flask/third_pay_product/application.py", line 1, in <module>
+    from flask import Flask
+ImportError: No module named flask
