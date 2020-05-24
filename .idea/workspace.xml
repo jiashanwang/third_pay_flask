@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="66e4af10-1d5d-4459-b5f8-12f1f75618ca" name="Default Changelist" comment="" />
+    <list default="true" id="66e4af10-1d5d-4459-b5f8-12f1f75618ca" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/third_pay_product/config/base_setting.py" beforeDir="false" afterPath="$PROJECT_DIR$/third_pay_product/config/base_setting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/third_pay_product/web/controllers/index.py" beforeDir="false" afterPath="$PROJECT_DIR$/third_pay_product/web/controllers/index.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +17,9 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1c2EUdZk8Tm2F9gvHXzgm07bdEd" />
   <component name="ProjectViewState">
@@ -161,10 +168,10 @@
     </state>
     <state width="1419" height="419" key="GridCell.Tab.1.right/0.0.1436.900@0.0.1436.900" timestamp="1590303850240" />
     <state width="1419" height="361" key="GridCell.Tab.1.right/0.23.1436.877@0.23.1436.877" timestamp="1590297327129" />
-    <state x="229" y="89" key="SettingsEditor" timestamp="1589720751979">
+    <state x="229" y="89" key="SettingsEditor" timestamp="1590308993403">
       <screen x="0" y="0" width="1436" height="900" />
     </state>
-    <state x="229" y="89" key="SettingsEditor/0.0.1436.900@0.0.1436.900" timestamp="1589720751979" />
+    <state x="229" y="89" key="SettingsEditor/0.0.1436.900@0.0.1436.900" timestamp="1590308993403" />
     <state x="399" y="298" key="com.intellij.ide.util.TipDialog" timestamp="1590242509764">
       <screen x="0" y="23" width="1436" height="877" />
     </state>
@@ -173,13 +180,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/third_pay_product/web/controllers/index.py</url>
-          <line>131</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">

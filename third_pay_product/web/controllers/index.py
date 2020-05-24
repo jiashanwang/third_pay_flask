@@ -119,7 +119,8 @@ def getAdminInfo():
         "group_introduction": res_data.get("group_introduction"),
         "now_price": res_data.get("now_price"),
         "old_price": res_data.get("old_price"),
-        "pay_introduction": res_data.get("pay_introduction")
+        "pay_introduction": res_data.get("pay_introduction"),
+        "subject_title":res_data.get("subject_title")
     }
     return jsonify(return_data("返回成功", data))
 
