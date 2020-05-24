@@ -2,7 +2,7 @@ from flask import request, jsonify, Blueprint
 from common.libs.tools import get_current_time, get_md5, return_data, get_code
 import uuid, json
 import requests
-from common.models import User
+from common.models import User, Admin
 from application import db
 from sqlalchemy import text
 import datetime
@@ -94,7 +94,7 @@ def getOder():
     result = User.query.filter_by(merchant_order_number=params.get("order")).first()
 
     if result.pay_time is not None:
-         # 订单支付成功
+        # 订单支付成功
         data = {
             "cloud_order_num": result.cloud_order_number,
             "pay_price": result.pay_price,
@@ -104,3 +104,32 @@ def getOder():
         return jsonify(return_data("支付成功", data))
     else:
         return jsonify(return_data("订单未支付"))
+
+
+@index_page.route("/getAdminInfo", methods=["POST"])
+def getAdminInfo():
+    params = request.json
+    result = Admin.query.filter_by(domain=params.get("domain")).first()
+    res_data = result.to_json()
+    print(res_data)
+    data = {
+        "admin_title": res_data.get("admin_title"),
+        "admin_introduction": res_data.get("admin_introduction"),
+        "group_introduction": res_data.get("group_introduction"),
+        "now_price": res_data.get("now_price"),
+        "old_price": res_data.get("old_price"),
+        "pay_introduction": res_data.get("pay_introduction")
+    }
+    return jsonify(return_data("返回成功", data))
+
+
+@index_page.route("/getQrcode", methods=["POST"])
+def getQrcode():
+    params = request.json
+    result = Admin.query.filter_by(domain=params.get("domain")).first()
+    res_data = result.to_json()
+    data = {
+        "qrcode": res_data.get("wx_qrcode"),
+        "mask": res_data.get("mask")
+    }
+    return jsonify(return_data("调用成功", data))

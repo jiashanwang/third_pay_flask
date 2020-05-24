@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="66e4af10-1d5d-4459-b5f8-12f1f75618ca" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1c2EUdZk8Tm2F9gvHXzgm07bdEd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/third_pay_product" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/third_pay_product/common/libs" />
+      <recent name="$PROJECT_DIR$/third_pay_product/common/models" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.manager_pay">
+    <configuration name="manager_pay" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="third_pay_flask" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/third_pay_product" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/third_pay_product/manager_pay.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="manager_third_pay" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="third_pay_flask" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/third_pay_product" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/third_pay_product/manager_third_pay.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tools" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="third_pay_flask" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/third_pay_product" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/third_pay_product/common/libs/tools.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.manager_pay" />
+        <item itemvalue="Python.manager_third_pay" />
+        <item itemvalue="Python.tools" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="66e4af10-1d5d-4459-b5f8-12f1f75618ca" name="Default Changelist" comment="" />
+      <created>1589718304898</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589718304898</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1419" height="341" key="GridCell.Tab.0.bottom" timestamp="1590302306319">
+      <screen x="0" y="0" width="1436" height="900" />
+    </state>
+    <state width="1419" height="341" key="GridCell.Tab.0.bottom/0.0.1436.900@0.0.1436.900" timestamp="1590302306319" />
+    <state width="1419" height="325" key="GridCell.Tab.0.bottom/0.23.1436.877@0.23.1436.877" timestamp="1590242361378" />
+    <state width="1419" height="341" key="GridCell.Tab.0.center" timestamp="1590302306317">
+      <screen x="0" y="0" width="1436" height="900" />
+    </state>
+    <state width="1419" height="341" key="GridCell.Tab.0.center/0.0.1436.900@0.0.1436.900" timestamp="1590302306317" />
+    <state width="1419" height="325" key="GridCell.Tab.0.center/0.23.1436.877@0.23.1436.877" timestamp="1590242361377" />
+    <state width="1419" height="341" key="GridCell.Tab.0.left" timestamp="1590302306315">
+      <screen x="0" y="0" width="1436" height="900" />
+    </state>
+    <state width="1419" height="341" key="GridCell.Tab.0.left/0.0.1436.900@0.0.1436.900" timestamp="1590302306315" />
+    <state width="1419" height="325" key="GridCell.Tab.0.left/0.23.1436.877@0.23.1436.877" timestamp="1590242361377" />
+    <state width="1419" height="341" key="GridCell.Tab.0.right" timestamp="1590302306318">
+      <screen x="0" y="0" width="1436" height="900" />
+    </state>
+    <state width="1419" height="341" key="GridCell.Tab.0.right/0.0.1436.900@0.0.1436.900" timestamp="1590302306318" />
+    <state width="1419" height="325" key="GridCell.Tab.0.right/0.23.1436.877@0.23.1436.877" timestamp="1590242361377" />
+    <state width="1419" height="341" key="GridCell.Tab.1.bottom" timestamp="1590302306227">
+      <screen x="0" y="0" width="1436" height="900" />
+    </state>
+    <state width="1419" height="341" key="GridCell.Tab.1.bottom/0.0.1436.900@0.0.1436.900" timestamp="1590302306227" />
+    <state width="1419" height="361" key="GridCell.Tab.1.bottom/0.23.1436.877@0.23.1436.877" timestamp="1590297327130" />
+    <state width="1419" height="341" key="GridCell.Tab.1.center" timestamp="1590302306225">
+      <screen x="0" y="0" width="1436" height="900" />
+    </state>
+    <state width="1419" height="341" key="GridCell.Tab.1.center/0.0.1436.900@0.0.1436.900" timestamp="1590302306225" />
+    <state width="1419" height="361" key="GridCell.Tab.1.center/0.23.1436.877@0.23.1436.877" timestamp="1590297327129" />
+    <state width="1419" height="341" key="GridCell.Tab.1.left" timestamp="1590302306224">
+      <screen x="0" y="0" width="1436" height="900" />
+    </state>
+    <state width="1419" height="341" key="GridCell.Tab.1.left/0.0.1436.900@0.0.1436.900" timestamp="1590302306224" />
+    <state width="1419" height="361" key="GridCell.Tab.1.left/0.23.1436.877@0.23.1436.877" timestamp="1590297327128" />
+    <state width="1419" height="341" key="GridCell.Tab.1.right" timestamp="1590302306226">
+      <screen x="0" y="0" width="1436" height="900" />
+    </state>
+    <state width="1419" height="341" key="GridCell.Tab.1.right/0.0.1436.900@0.0.1436.900" timestamp="1590302306226" />
+    <state width="1419" height="361" key="GridCell.Tab.1.right/0.23.1436.877@0.23.1436.877" timestamp="1590297327129" />
+    <state x="229" y="89" key="SettingsEditor" timestamp="1589720751979">
+      <screen x="0" y="0" width="1436" height="900" />
+    </state>
+    <state x="229" y="89" key="SettingsEditor/0.0.1436.900@0.0.1436.900" timestamp="1589720751979" />
+    <state x="399" y="298" key="com.intellij.ide.util.TipDialog" timestamp="1590242509764">
+      <screen x="0" y="23" width="1436" height="877" />
+    </state>
+    <state x="399" y="282" key="com.intellij.ide.util.TipDialog/0.0.1436.900@0.0.1436.900" timestamp="1590111018269" />
+    <state x="399" y="298" key="com.intellij.ide.util.TipDialog/0.23.1436.877@0.23.1436.877" timestamp="1590242509764" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/third_pay_product/web/controllers/index.py</url>
+          <line>130</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
