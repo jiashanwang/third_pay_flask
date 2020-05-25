@@ -30,7 +30,7 @@ def getInfos():
         "pay_way": pay_way,
         "price": params.get("price") * 100,  # 单位为分
         "attach": "商家的自定义字段，支付回调会原路返回",
-        "notify_url": "http://127.0.0.1:5000/index/getPayState",
+        "notify_url": "http://www.hbwjshan.com:8001/index/getPayState",
     }
     generate_key = pay_infos.get("app_id") + pay_infos.get("out_order_sn") + pay_infos.get("name") + \
                    pay_infos.get("pay_way") + str(pay_infos.get("price")) + pay_infos.get("attach") + pay_infos.get(
