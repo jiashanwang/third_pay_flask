@@ -4,7 +4,6 @@
     <list default="true" id="66e4af10-1d5d-4459-b5f8-12f1f75618ca" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/third_pay_product/common/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/third_pay_product/common/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/third_pay_product/config/base_setting.py" beforeDir="false" afterPath="$PROJECT_DIR$/third_pay_product/config/base_setting.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,45 +127,45 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1419" height="341" key="GridCell.Tab.0.bottom" timestamp="1590310354204">
+    <state width="1419" height="359" key="GridCell.Tab.0.bottom" timestamp="1590333090479">
       <screen x="0" y="0" width="1436" height="900" />
     </state>
-    <state width="1419" height="341" key="GridCell.Tab.0.bottom/0.0.1436.900@0.0.1436.900" timestamp="1590310354204" />
+    <state width="1419" height="359" key="GridCell.Tab.0.bottom/0.0.1436.900@0.0.1436.900" timestamp="1590333090479" />
     <state width="1419" height="325" key="GridCell.Tab.0.bottom/0.23.1436.877@0.23.1436.877" timestamp="1590242361378" />
-    <state width="1419" height="341" key="GridCell.Tab.0.center" timestamp="1590310354203">
+    <state width="1419" height="359" key="GridCell.Tab.0.center" timestamp="1590333090478">
       <screen x="0" y="0" width="1436" height="900" />
     </state>
-    <state width="1419" height="341" key="GridCell.Tab.0.center/0.0.1436.900@0.0.1436.900" timestamp="1590310354203" />
+    <state width="1419" height="359" key="GridCell.Tab.0.center/0.0.1436.900@0.0.1436.900" timestamp="1590333090478" />
     <state width="1419" height="325" key="GridCell.Tab.0.center/0.23.1436.877@0.23.1436.877" timestamp="1590242361377" />
-    <state width="1419" height="341" key="GridCell.Tab.0.left" timestamp="1590310354202">
+    <state width="1419" height="359" key="GridCell.Tab.0.left" timestamp="1590333090476">
       <screen x="0" y="0" width="1436" height="900" />
     </state>
-    <state width="1419" height="341" key="GridCell.Tab.0.left/0.0.1436.900@0.0.1436.900" timestamp="1590310354202" />
+    <state width="1419" height="359" key="GridCell.Tab.0.left/0.0.1436.900@0.0.1436.900" timestamp="1590333090476" />
     <state width="1419" height="325" key="GridCell.Tab.0.left/0.23.1436.877@0.23.1436.877" timestamp="1590242361377" />
-    <state width="1419" height="341" key="GridCell.Tab.0.right" timestamp="1590310354204">
+    <state width="1419" height="359" key="GridCell.Tab.0.right" timestamp="1590333090478">
       <screen x="0" y="0" width="1436" height="900" />
     </state>
-    <state width="1419" height="341" key="GridCell.Tab.0.right/0.0.1436.900@0.0.1436.900" timestamp="1590310354203" />
+    <state width="1419" height="359" key="GridCell.Tab.0.right/0.0.1436.900@0.0.1436.900" timestamp="1590333090478" />
     <state width="1419" height="325" key="GridCell.Tab.0.right/0.23.1436.877@0.23.1436.877" timestamp="1590242361377" />
-    <state width="1419" height="490" key="GridCell.Tab.1.bottom" timestamp="1590310328957">
-      <screen x="0" y="23" width="1436" height="877" />
+    <state width="1419" height="359" key="GridCell.Tab.1.bottom" timestamp="1590333090482">
+      <screen x="0" y="0" width="1436" height="900" />
     </state>
-    <state width="1419" height="490" key="GridCell.Tab.1.bottom/0.0.1436.900@0.0.1436.900" timestamp="1590310314690" />
+    <state width="1419" height="359" key="GridCell.Tab.1.bottom/0.0.1436.900@0.0.1436.900" timestamp="1590333090482" />
     <state width="1419" height="490" key="GridCell.Tab.1.bottom/0.23.1436.877@0.23.1436.877" timestamp="1590310328957" />
-    <state width="1419" height="490" key="GridCell.Tab.1.center" timestamp="1590310328955">
-      <screen x="0" y="23" width="1436" height="877" />
+    <state width="1419" height="359" key="GridCell.Tab.1.center" timestamp="1590333090481">
+      <screen x="0" y="0" width="1436" height="900" />
     </state>
-    <state width="1419" height="490" key="GridCell.Tab.1.center/0.0.1436.900@0.0.1436.900" timestamp="1590310314689" />
+    <state width="1419" height="359" key="GridCell.Tab.1.center/0.0.1436.900@0.0.1436.900" timestamp="1590333090481" />
     <state width="1419" height="490" key="GridCell.Tab.1.center/0.23.1436.877@0.23.1436.877" timestamp="1590310328955" />
-    <state width="1419" height="490" key="GridCell.Tab.1.left" timestamp="1590310328955">
-      <screen x="0" y="23" width="1436" height="877" />
+    <state width="1419" height="359" key="GridCell.Tab.1.left" timestamp="1590333090480">
+      <screen x="0" y="0" width="1436" height="900" />
     </state>
-    <state width="1419" height="490" key="GridCell.Tab.1.left/0.0.1436.900@0.0.1436.900" timestamp="1590310314688" />
+    <state width="1419" height="359" key="GridCell.Tab.1.left/0.0.1436.900@0.0.1436.900" timestamp="1590333090480" />
     <state width="1419" height="490" key="GridCell.Tab.1.left/0.23.1436.877@0.23.1436.877" timestamp="1590310328955" />
-    <state width="1419" height="490" key="GridCell.Tab.1.right" timestamp="1590310328956">
-      <screen x="0" y="23" width="1436" height="877" />
+    <state width="1419" height="359" key="GridCell.Tab.1.right" timestamp="1590333090481">
+      <screen x="0" y="0" width="1436" height="900" />
     </state>
-    <state width="1419" height="490" key="GridCell.Tab.1.right/0.0.1436.900@0.0.1436.900" timestamp="1590310314690" />
+    <state width="1419" height="359" key="GridCell.Tab.1.right/0.0.1436.900@0.0.1436.900" timestamp="1590333090481" />
     <state width="1419" height="490" key="GridCell.Tab.1.right/0.23.1436.877@0.23.1436.877" timestamp="1590310328956" />
     <state x="229" y="89" key="SettingsEditor" timestamp="1590308993403">
       <screen x="0" y="0" width="1436" height="900" />
