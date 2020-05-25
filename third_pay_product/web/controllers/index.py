@@ -13,6 +13,9 @@ index_page = Blueprint("index", __name__)
 
 @index_page.route("/getInfos", methods=["POST"])
 def getInfos():
+    '''
+    发起预支付
+    '''
     now = str(datetime.datetime.now())
     idx = now.index(".")
     create_time = now[0:idx]
@@ -27,7 +30,7 @@ def getInfos():
         "pay_way": pay_way,
         "price": params.get("price") * 100,  # 单位为分
         "attach": "商家的自定义字段，支付回调会原路返回",
-        "notify_url": "http://7f2k7g.natappfree.cc/index/getPayState",
+        "notify_url": "http://127.0.0.1:5000/index/getPayState",
     }
     generate_key = pay_infos.get("app_id") + pay_infos.get("out_order_sn") + pay_infos.get("name") + \
                    pay_infos.get("pay_way") + str(pay_infos.get("price")) + pay_infos.get("attach") + pay_infos.get(
@@ -65,6 +68,9 @@ def getInfos():
 
 @index_page.route("/getPayState", methods=["POST"])
 def getPayState():
+    '''
+    云端支付完成后的回调通知
+    '''
     forms = request.form
     merchant_order_number = forms.get("out_order_sn")
     result = User.query.filter_by(merchant_order_number=merchant_order_number).first()
@@ -109,6 +115,9 @@ def getOder():
 
 @index_page.route("/getAdminInfo", methods=["POST"])
 def getAdminInfo():
+    '''
+    获取客户的信息
+    '''
     params = request.json
     result = Admin.query.filter_by(domain=params.get("domain")).first()
     res_data = result.to_json()
@@ -127,6 +136,9 @@ def getAdminInfo():
 
 @index_page.route("/getQrcode", methods=["POST"])
 def getQrcode():
+    '''
+    获取微信二维码和添加好友的备注信息
+    '''
     params = request.json
     result = Admin.query.filter_by(domain=params.get("domain")).first()
     res_data = result.to_json()
